@@ -68,7 +68,7 @@ def test_stock_prices_dataset():
 
 def def_keystats_dimensions():
     """
-    This tests that the keystats csv has been built correctly
+    This tests that the keystats csv has been built correctly.
     """
     df = pd.read_csv("keystats.csv", index_col='Date')
 
@@ -91,4 +91,4 @@ def test_stock_prediction_dataset():
     X, y = stock_prediction.build_data_set()
     assert X.shape[0] == df.shape[0] - num_rows_with_nan
     assert len(y) == df.shape[0] - num_rows_with_nan
-    assert X.shape[1] == len(parsing_keystats.features)
+    assert X.shape[1] == len(parsing_keystats.features) 
