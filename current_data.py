@@ -10,7 +10,7 @@ from utils import data_string_to_float
 # The path to your fundamental data
 statspath = "intraQuarter/_KeyStats/"
 
-# These are the features that will be parsed
+# These are the features that will be parsed.
 features = [  # Valuation measures
     "Market Cap",
     "Enterprise Value",
