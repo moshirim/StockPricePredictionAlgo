@@ -1,6 +1,6 @@
 def data_string_to_float(number_string):
     """
-    The result of our regex search is a number stored as a string, but we need a float.
+    The result of our regex search is a number stored as a string, but we need a float. (Needs addressing)
         - Some of these strings say things like '25M' instead of 25000000.
         - Some have 'N/A' in them.
         - Some are negative (have '-' in front of the numbers).
