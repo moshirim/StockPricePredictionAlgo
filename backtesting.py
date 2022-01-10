@@ -9,8 +9,8 @@ from utils import status_calc
 
 def backtest():
     """
-    A simple backtest, which splits the dataset into a train set and test set,
-    then fits a Random Forest classifier to the train set. We print the precision and accuracy
+    A simple backtest, which splits the dataset into a train set and test set.
+    Then fits a Random Forest classifier to the train set. We print the precision and accuracy
     of the classifier on the test set, then run a backtest comparing this strategy's performance
     to passive investment in the S&P500.
     Please note that there is a methodological flaw in this backtest which will give deceptively
