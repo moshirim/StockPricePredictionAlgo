@@ -9,7 +9,7 @@ def data_string_to_float(number_string):
     :param number_string: the string output of our regex, which needs to be converted to a float.
     :return: a float representation of the string, taking into account minus sign, unit, etc.
     """
-    # Deal with zeroes and the sign
+    # Deal with zeroes and the sign.
     if ("N/A" in number_string) or ("NaN" in number_string):
         return "N/A"
     elif number_string == ">0":
