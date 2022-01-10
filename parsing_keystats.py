@@ -7,10 +7,10 @@ from utils import data_string_to_float
 from tqdm import tqdm
 
 
-# The directory where individual html files are stored
+# The directory where individual html files are stored.
 statspath = "intraQuarter/_KeyStats/"
 
-# The list of features to parse from the html files
+# The list of features to parse from the html files.
 features = [  # Valuation measures
     "Market Cap",
     "Enterprise Value",
